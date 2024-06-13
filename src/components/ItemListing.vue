@@ -3,15 +3,15 @@
     <ul>
       <li>
         <h3> A work in progress SFML 3d Graphics Engine</h3>
-        <a herf="https://github.com/nicklim011213/GraphicsEngine"> Github Link</a>
+        <a href="https://github.com/nicklim011213/GraphicsEngine"> Github Link </a>
       </li>
       <li>
         <h3> A simple 3D Projection of a 2D Map using SFML</h3>
-        <a herf="https://github.com/nicklim011213/Pesudo3DGraphicsEngine"> Github Link</a>
+        <a href="https://github.com/nicklim011213/Pesudo3DGraphicsEngine"> Github Link </a>
       </li>
       <li>
         <h3> Learning how to build websites with Vue (This page!)</h3>
-        <a herf="https://github.com/nicklim011213/Website"> Github Link</a>
+        <a href="https://github.com/nicklim011213/Website"> Github Link </a>
       </li>
     </ul>
   </div>

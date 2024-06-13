@@ -6,8 +6,6 @@
   font-weight: normal;
   display: grid;
   height: 100vh;
-  background: rgb(255,222,173);
-  background: linear-gradient(0deg, rgba(255,222,173,1) 0%, rgba(64,199,2,1) 100%);
 }
 
 .green {
