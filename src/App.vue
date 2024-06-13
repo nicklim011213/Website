@@ -1,36 +1,44 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import ItemListing from './components/ItemListing.vue'
 </script>
 
 <template>
-  <header>
-    <!---<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />--->
-	<!---Test--->
-    <div class="wrapper">
-      <HelloWorld msg="Resume / Projects Site" />
+  <div class="GradWrap">
+    <header>
+      <div class="wrapper">
+        <HelloWorld msg="Resume / Projects Site" />
+      </div>
+    </header>
+  </div>
+  <div class = "Items">
+      <ItemListing />
     </div>
-  </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
   place-items: center;
   margin: 0 auto;
+  height: 15vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto;
-}
-
-main
+html
 {
-  margin: auto;
-  place-items: center;
+  height: 100vh;
+}
+
+.Items
+{
+  height: 85vh;
+  background-color: #ffDead;
+}
+
+.GradWrap
+{
+  background: rgb(255,222,173);
+  background: linear-gradient(0deg, rgba(255,222,173,1) 0%, rgba(64,199,2,1) 100%);
 }
 </style>
