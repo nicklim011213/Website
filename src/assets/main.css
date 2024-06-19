@@ -5,7 +5,8 @@
   padding: 0rem;
   font-weight: normal;
   display: grid;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .green {
@@ -15,9 +16,9 @@
   padding: 3px;
 }
 
-.black {
+.white {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   transition: 0.4s;
   padding: 3px;
 }
@@ -30,4 +31,6 @@
 
   body {
     place-items: center;
+    background-color: #40405D;
+    height: 100%;
   }
